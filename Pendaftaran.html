@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - SMKN 1 Selayar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.smkn1.jpeg" alt="Logo SMKN 1 Selayar">
+        </div>
+        <h1>SMKN 1 SELAYAR</h1>
+        <nav>
+            <ul>
+                <li><a href="Beranda.html">Beranda</a></li>
+                <li><a href="profile.html">Profil</a></li>
+                <li><a href="Pengumuman.html">Pengumuman</a></li>
+                <li><a href="Alumni.html">Data Alumni</a></li>
+                <li><a href="Pendaftaran.html">Pendaftaran</a></li>
+        </nav>
+    </header>
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Siswa Baru</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link ke file CSS kamu -->
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pendaftaran Siswa Baru</title>
+        <link rel="stylesheet" href="styles.css"> <!-- Link ke file CSS kamu -->
+    </head>
+    <body>
+        <section class="form-section">
+            <div class="form-card">
+                <h1>Pendaftaran Siswa Baru</h1>
+                <p>Isi data berikut untuk melanjutkan pendaftaran ke SMKN 1 Selayar.</p>
+                <form id="registration-form" onsubmit="return handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="nama">Nama Lengkap</label>
+                        <input type="text" id="nama" name="nama" required placeholder="Masukkan nama lengkap">
+                    </div>
+                    <div class="form-group">
+                        <label for="jurusan">Jurusan</label>
+                        <select id="jurusan" name="jurusan" required>
+                            <option value="">Pilih Jurusan</option>
+                            <option value="TKJ">TKJ (Teknik Komputer dan Jaringan)</option>
+                            <option value="MM">MM (Multimedia)</option>
+                            <option value="OTKP">OTKP (Otomatisasi dan Tata Kelola Perkantoran)</option>
+                            <option value="AKL">AKL (Akuntansi dan Keuangan Lembaga)</option>
+                            <option value="UPW">UPW (Usaha Perjalanan Wisata)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="alamat">Alamat Lengkap</label>
+                        <textarea id="alamat" name="alamat" rows="4" required placeholder="Masukkan alamat lengkap"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Daftar Sekarang</button>
+                </form>
+                <div id="message"></div> <!-- Pesan berhasil/gagal -->
+                
+                <!-- Tombol Kembali ke Beranda -->
+                <div class="back-to-home">
+                    <a href="index.html" class="btn-back">Kembali ke Beranda</a>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Pemanggilan file JavaScript -->
+        <script src="script.js"></script>  <!-- Pastikan nama file sesuai -->
+    </body>
+    </html>
+    
